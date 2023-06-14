@@ -42,6 +42,8 @@
  - En haut à droite, sélectionnez dans la liste déroulante la région AWS dans laquelle vous souhaitez travailler, généralement une région proche de votre lieu de résidence.
  - Naviguez jusqu'à la section AWS Lambda. Vous pouvez saisir "Lambda" dans la barre de recherche pour la trouver.
 
+![console-aws](https://github.com/sulaylv/hello-lambda/assets/136634640/149dea05-80d2-40d5-a613-e0bceb13d16d)
+
 ## Étape 2 : Créer une nouvelle fonction AWS Lambda
 - Nous allons maintenant créer notre fonction AWS Lambda.
   - Dans la console AWS, accédez à la page Lambda > Fonctions
@@ -51,8 +53,13 @@
   - Sous "Exécution", sélectionnez une  version JAVA disponible. Nous utilisons java 11.
   - Les autres paramètres sont définis par défaut
   - Cliquez sur Créer une fonction.
+ 
+  ![page-console-function](https://github.com/sulaylv/hello-lambda/assets/136634640/9fab9f0e-b323-4e93-9951-e7ac2c4231bd)
 
-  
+  ![creation-function-lambda](https://github.com/sulaylv/hello-lambda/assets/136634640/717d91c6-91ac-4170-9f16-484dbe69419d)
+
+  ![list-function-lambda](https://github.com/sulaylv/hello-lambda/assets/136634640/4498838a-27a2-4a27-9c9c-e7f4c10f0a09)
+
 ## Étape 3: Déployer la fonction Lambda sur AWS 
 - Nous allons maintenant déployer notre fonction sur AWS. Nous pouvons le faire directement depuis AWS console.
   - Dans la console AWS, accédez à la page Lambda > Fonctions
@@ -63,6 +70,11 @@
   - Sélectionnez votre fichier "hello-lambda-1.0-SNAPSHOT.jar" depuis le repertoire target de votre projet maven
   - Cliquez sur "Enregistrer"
 
+![presentation-fonction](https://github.com/sulaylv/hello-lambda/assets/136634640/d744ae67-3bcc-47a9-9eb3-8da94c42fa8a)
+
+![onglet-charger-depuis-2](https://github.com/sulaylv/hello-lambda/assets/136634640/319b0525-a6fb-4c19-be16-1863fcca76bd)
+
+![charger-file-jar](https://github.com/sulaylv/hello-lambda/assets/136634640/3fab0b3b-1a3e-4ede-9060-3e85df7b9814)
 
 ## Étape 4: Tester la fonction Lambda
   - Nous allons maintenant tester notre fonction sur AWS. Nous pouvons le faire directement depuis AWS console.
@@ -70,6 +82,8 @@
     - Sélectionnez l'onglet "Tester"
     - Et puis cliquer sur le bouton "Tester"
     - Le message "hello world..." s'affiche sur la comsole
+
+![test-labmda-function-in-console](https://github.com/sulaylv/hello-lambda/assets/136634640/f1e5d91a-1cb2-4b0c-baf4-1932656f0654)
 
 
 ## Étape 5: Créer une API Gateway
@@ -92,7 +106,22 @@
 	- Vérifier et créer
 	  - Cliquer sur "creer"
 
-	  
+![api-a-creer](https://github.com/sulaylv/hello-lambda/assets/136634640/679c7a17-2c0c-480c-9956-c0ca5907dd16)
+
+![choix-type-api](https://github.com/sulaylv/hello-lambda/assets/136634640/5ff60ee8-6fcb-47c2-a1a4-fda97799f775)
+
+![Creer et configurer des intégrations](https://github.com/sulaylv/hello-lambda/assets/136634640/db038722-cd89-4dd6-803e-3a5a180ee754)
+
+![configuration-des-routes](https://github.com/sulaylv/hello-lambda/assets/136634640/91a907db-094e-4d14-a5b1-cef995665713)
+
+![config-etapes](https://github.com/sulaylv/hello-lambda/assets/136634640/8b3dd77f-5bb2-4d84-b3ed-0d76213d1240)
+
+![verifier-et-creer-1](https://github.com/sulaylv/hello-lambda/assets/136634640/52531293-814a-4192-afc4-9c268241184b)
+
+![verifier-et-creer-2](https://github.com/sulaylv/hello-lambda/assets/136634640/4b8cbefd-77c0-4b79-85ea-7aaf94fc2f1e)
+
+![list-api](https://github.com/sulaylv/hello-lambda/assets/136634640/66c4b322-c47e-4aea-b4c3-d01deefce966)
+
 ## Étape 6: Tester l'API Gateway
    - Dans la console AWS, accédez à la page Lambda > Fonctions
       - Cliquez sur "API Gateway"
@@ -102,3 +131,11 @@
         "https://v6xheiz5t7.execute-api.us-east-2.amazonaws.com/getHelloWorld"
       - Le message "hello world..." s'affiche sur le navigateur
       - A tester aussi sur Postman
+
+![presentation-fonction](https://github.com/sulaylv/hello-lambda/assets/136634640/ad98e3f7-9a83-435d-be08-39c63a46ed9a)
+
+![declencheur-et-details](https://github.com/sulaylv/hello-lambda/assets/136634640/2a6f3dfc-561b-49a2-8aaa-74ac095b771b)
+
+![msg-resul-navig](https://github.com/sulaylv/hello-lambda/assets/136634640/e87103c6-9402-4843-aa9e-43dc7c401ccb)
+
+![postman-result](https://github.com/sulaylv/hello-lambda/assets/136634640/661c7210-27e4-4508-b894-fd4624be6fdd)
