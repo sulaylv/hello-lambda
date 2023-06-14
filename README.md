@@ -34,6 +34,8 @@
 
 ![build](https://github.com/sulaylv/hello-lambda/assets/136634640/a02d7901-8db1-4c8c-84d3-a3f28691df76)
 
+![test-unit](https://github.com/sulaylv/hello-lambda/assets/136634640/32ad57d8-b556-4636-a51f-86645642ade6)
+
 ## Étape 1 : Console AWS
 - Naviguons vers la zone de la console AWS où nous allons travailler.
  - Accédez à la console AWS et connectez-vous.
