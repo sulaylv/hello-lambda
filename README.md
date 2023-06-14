@@ -32,6 +32,7 @@
    - mvn test 
      - pour executer les tests unitaires 
 
+![build](https://github.com/sulaylv/hello-lambda/assets/136634640/a02d7901-8db1-4c8c-84d3-a3f28691df76)
 
 ## Étape 1 : Console AWS
 - Naviguons vers la zone de la console AWS où nous allons travailler.
